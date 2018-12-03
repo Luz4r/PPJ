@@ -1,0 +1,23 @@
+
+byte -> 1 bajt
+short -> 2 bajty
+int -> 4 bajty
+long -> 8 bajtów
+
+1 bajt = 8 bitów
+
+java -cp <ścieżka> nazwa programu - skad uruchomic program
+javac -d <ścieżka> - gdzie utworzyc plik *.class
+
+(typ) liczba   - rzutowanie na inny typ, 
+	np. int x = (int)2.5;
+
+0b.... - system binarny
+0..... - system octalny
+0x.... - system szesnastkowy
+
+(warunek)? wyr1 : wyr2
+	np. int x = (true)? 10 : 9;		<--- zmiennej x przypisze wartosc 10, poniewaz warunek jest prawdziwy, w przeciwnym wypadku wartosca x byloby 9
+
+true ^ false = true, false ^ true = true, true ^ true = false, false ^ false = false
+	np. A = 0011 1010, B = 0101 0011     A ^ B = 0110 1001
