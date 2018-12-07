@@ -6,19 +6,20 @@ public class Komorka extends Telefon {
 
     Komorka(){
         ostatnie10Polaczen = new String[10];
-        ktoryNumer = 0;
+        ktoryNumer = 9;
     }
 
     @Override
     void zadzwon(String numer){
         super.zadzwon(numer);
-        if(ktoryNumer == ostatnie10Polaczen.length){
-            for(int i = 0; i < ostatnie10Polaczen.length - 1; i++){
-                ostatnie10Polaczen[i] = ostatnie10Polaczen[i+1];
+
+        if(ktoryNumer < 0){
+            for(int i = ostatnie10Polaczen.length - 1; i > 0; i--){
+                ostatnie10Polaczen[i] = ostatnie10Polaczen[i-1];
             }
-            ostatnie10Polaczen[ostatnie10Polaczen.length - 1] = numer;
+            ostatnie10Polaczen[0] = numer;
         }else
-            ostatnie10Polaczen[ktoryNumer++] = numer;
+            ostatnie10Polaczen[ktoryNumer--] = numer;
     }
 
     @Override
