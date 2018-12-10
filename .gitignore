@@ -24,8 +24,4 @@ hs_err_pid*
 
 
 #IntelliJ Idea
-.idea
-*.ipr
-*.iws
-*.iml
 out

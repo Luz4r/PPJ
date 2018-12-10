@@ -17,6 +17,7 @@ public class Main {
         }
 
         telefony[2].zadzwon("888-888-888");
+        System.out.println();
         telefony[2].wyswietlHistoriePolaczen();
     }
 }
