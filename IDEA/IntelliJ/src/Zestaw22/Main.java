@@ -66,30 +66,11 @@ public class Main {
                 if ((i > '9' || i < '0') && (i < 'A' || i > 'F'))
                     throw new NumberFormatException("Zly format liczby");
             }
-            for(int i = 0, j = nowyString.length()-1; i < nowyString.length(); i++, j--) {
-                switch (nowyString.charAt(i)){
-                    case 'A':
-                        nowaLiczba += 10 * Math.pow(16, j);
-                        break;
-                    case 'B':
-                        nowaLiczba += 11 * Math.pow(16, j);
-                        break;
-                    case 'C':
-                        nowaLiczba += 12 * Math.pow(16, j);
-                        break;
-                    case 'D':
-                        nowaLiczba += 13 * Math.pow(16, j);
-                        break;
-                    case 'E':
-                        nowaLiczba += 14 * Math.pow(16, j);
-                        break;
-                    case 'F':
-                        nowaLiczba += 15 * Math.pow(16, j);
-                        break;
-                    default:
-                        nowaLiczba += (nowyString.charAt(i) - '0') * Math.pow(16, j);
-                        break;
-                }
+            for(int i = 0, j = nowyString.length() - 1; i < nowyString.length(); i++, j--) {
+                if(nowyString.charAt(i) >= 'A' && nowyString.charAt(i) <= 'Z')
+                    nowaLiczba += (nowyString.charAt(i) - 'A' + 10) * Math.pow(16, j);
+                else
+                    nowaLiczba += (nowyString.charAt(i) - '0') * Math.pow(16, j);
             }
 
         }else if(liczba.charAt(0) == '0' && liczba.charAt(1) == 'b'){
@@ -100,7 +81,7 @@ public class Main {
                 if (i > '1' || i < '0')
                     throw new NumberFormatException("Zly format liczby");
             }
-            for(int i = 0, j = nowyString.length()-1; i < nowyString.length(); i++, j--)
+            for(int i = 0, j = nowyString.length() - 1; i < nowyString.length(); i++, j--)
                 nowaLiczba += (nowyString.charAt(i) - '0') * Math.pow(2, j);
 
         }else if(liczba.charAt(0) == '0'){
