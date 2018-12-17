@@ -21,3 +21,8 @@ javac -d <ścieżka> - gdzie utworzyc plik *.class
 
 true ^ false = true, false ^ true = true, true ^ true = false, false ^ false = false
 	np. A = 0011 1010, B = 0101 0011     A ^ B = 0110 1001
+	
+	
+String string;   <--- deklaracja
+
+String string = "aaaaa";    <--- inicjacja z deklaracja

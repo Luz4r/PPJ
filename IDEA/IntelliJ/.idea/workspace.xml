@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639c3240-9fc2-4224-9262-b409f8ffbd99" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/Zestaw22/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Zestaw22/Rakieta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/src/Zestaw20/DrzewoBezOwocoweException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zestaw21/Alarm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zestaw21/DetektorDymu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zestaw21/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zestaw20/Drzewo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zestaw20/Drzewo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zestaw20/DrzewoIglaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zestaw20/DrzewoIglaste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zestaw20/DrzewoLisciaste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zestaw20/DrzewoLisciaste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zestaw20/DrzewoOwocowe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zestaw20/DrzewoOwocowe.java" afterDir="false" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,19 +81,85 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-496815469">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2173" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2173" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Zestaw22/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1627">
               <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Zestaw21/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Zestaw20/Drzewo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Zestaw20/DrzewoOwocowe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Zestaw20/DrzewoIglaste.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/Zestaw22/Rakieta.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
@@ -90,6 +168,12 @@
                 <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#260#261#0" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/Zestaw20/DrzewoLisciaste.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
             </state>
           </provider>
         </entry>
@@ -143,10 +227,21 @@
         <option value="$PROJECT_DIR$/src/Zestaw19/Telefon.java" />
         <option value="$PROJECT_DIR$/src/Zestaw19/Main.java" />
         <option value="$PROJECT_DIR$/src/Zestaw19/Komorka.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Zestaw21/Main.java" />
         <option value="$PROJECT_DIR$/src/Zestaw21/Rakieta.java" />
         <option value="$PROJECT_DIR$/src/Zestaw22/Rakieta.java" />
         <option value="$PROJECT_DIR$/src/Zestaw22/Main.java" />
+=======
+        <option value="$PROJECT_DIR$/src/Zestaw21/Alarm.java" />
+        <option value="$PROJECT_DIR$/src/Zestaw21/DetektorDymu.java" />
+        <option value="$PROJECT_DIR$/src/Zestaw20/DrzewoBezOwocoweException.java" />
+        <option value="$PROJECT_DIR$/src/Zestaw20/DrzewoLisciaste.java" />
+        <option value="$PROJECT_DIR$/src/Zestaw20/DrzewoIglaste.java" />
+        <option value="$PROJECT_DIR$/src/Zestaw20/DrzewoOwocowe.java" />
+        <option value="$PROJECT_DIR$/src/Zestaw21/Main.java" />
+        <option value="$PROJECT_DIR$/src/Zestaw20/Drzewo.java" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
       </list>
     </option>
   </component>
@@ -175,6 +270,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,14 +290,21 @@
               <item name="IntelliJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="IntelliJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Zestaw22" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Zestaw21" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="AndroidView" />
+=======
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -206,7 +312,11 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://Z:/PPJ/IDEA/IntelliJ/src/Zestaw15/Osoba.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545056612000" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544967803692" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -267,12 +377,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Zestaw15.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zestaw21.Main" />
       <module name="IntelliJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Zestaw15.*" />
+          <option name="PATTERN" value="Zestaw21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -281,11 +391,19 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="Zestaw22.Main" />
       <module name="IntelliJ" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Zestaw22.*" />
+=======
+      <option name="MAIN_CLASS_NAME" value="Zestaw15.Main" />
+      <module name="IntelliJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Zestaw15.*" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,12 +459,17 @@
       <workItem from="1543842108381" duration="2919000" />
       <workItem from="1544187829114" duration="4659000" />
       <workItem from="1544193695551" duration="651000" />
+<<<<<<< HEAD
       <workItem from="1544449906398" duration="39000" />
       <workItem from="1545052869573" duration="3671000" />
+=======
+      <workItem from="1544961044723" duration="6055000" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="31941000" />
   </component>
   <component name="ToolWindowManager">
@@ -354,6 +477,14 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
+=======
+    <option name="totallyTimeSpent" value="34286000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13539445" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,7 +493,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06832972" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23752712" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39980638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,7 +742,11 @@
     <entry file="file://$PROJECT_DIR$/src/Zestaw19/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
+<<<<<<< HEAD
           <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+=======
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
         </state>
       </provider>
     </entry>
@@ -634,6 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Zestaw20/Prostokat.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
@@ -660,14 +800,90 @@
           <folding>
             <element signature="e#224#225#0" expanded="true" />
             <element signature="e#260#261#0" expanded="true" />
+=======
+        <state relative-caret-position="510">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zestaw21/DetektorDymu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#96#97#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/7zEC0A3C1D5/Main.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zestaw21/Alarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zestaw20/DrzewoBezOwocoweException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Zestaw22/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1627">
           <caret line="106" column="12" selection-start-line="106" selection-start-column="12" selection-end-line="106" selection-end-column="12" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Zestaw21/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="36" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zestaw20/DrzewoIglaste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zestaw20/DrzewoLisciaste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zestaw20/DrzewoOwocowe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Zestaw20/Drzewo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+>>>>>>> 8c2ee04462531f73eba834ef4f414d64b83e04b5
         </state>
       </provider>
     </entry>
