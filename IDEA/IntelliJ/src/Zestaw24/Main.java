@@ -5,7 +5,9 @@ import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) {
-        /*int[] primeNumbers = generatePrime(20);
+
+        //Exercise 1
+        int[] primeNumbers = generatePrime(20);
 
         try {
             FileWriter fileWriter = new FileWriter("file.txt");
@@ -16,10 +18,11 @@ public class Main {
             fileWriter.close();
         }catch(IOException e){
             e.printStackTrace();
-        }*/
+        }
+        System.out.println(check("file.txt"));
 
-        //System.out.println(check("file.txt"));
 
+        // Exercise 2
         try{
             FileInputStream fileInputStream = new FileInputStream("example.txt");
             int tmp;
@@ -63,13 +66,53 @@ public class Main {
         }
 
 
-        /*try {
+        //Exercise 3
+        try {
+            BufferedReader br = new BufferedReader(new FileReader("src\\Zestaw24\\Zadanie45.java"));
+            String line;
+            StringBuilder everyLine = new StringBuilder();
+
+            while((line = br.readLine()) != null){
+                everyLine.append(line);
+            }
+            br.close();
+
+            String[] keywords = {
+                    "abstract", "assert", "boolean", "break", "byte", "case", "case", "catch",
+                    "char", "class", "continue", "default", "do", "double", "else", "enum",
+                    "extends", "final", "finally",
+                    "float", "for", "if", "implements", "import", "instanceof", "int", "interface",
+                    "long", "native", "new", "package", "private", "protected", "public", "return", "short",
+                    "static", "strictfp", "super", "switch", "synchronized", "this", "throw", "throws",
+                    "transient", "try", "void", "volatile", "while"
+            };
+
+            StringTokenizer stringTokenizer = new StringTokenizer(everyLine.toString());
+            int howMany = 0;
+            while(stringTokenizer.hasMoreTokens()){
+                String token = stringTokenizer.nextToken();
+                for(int i = 0; i < keywords.length; i++){
+                    if(token.equals(keywords[i])) {
+                        howMany++;
+                        break;
+                    }
+                }
+            }
+
+            System.out.println(howMany);
+        }catch(IOException e){
+            e.printStackTrace();
+        }
+
+
+        //Exercise 4 and 5
+        try {
             int howMany = 4;
             Zadanie45.createFiles(howMany);
             Zadanie45.createOneBigFile(howMany);
         }catch(IOException e){
             e.printStackTrace();
-        }*/
+        }
 
     }
 
