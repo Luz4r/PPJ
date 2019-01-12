@@ -20,7 +20,7 @@ public class Main {
 
         //System.out.println(check("file.txt"));
 
-        try{
+        /*try{
             FileInputStream fileInputStream = new FileInputStream("example.txt");
             int tmp;
             int i = 0;
@@ -44,14 +44,16 @@ public class Main {
             fileInputStream.close();
         }catch(IOException e){
             e.printStackTrace();
-        }
+        }*/
 
 
-        /*try {
-            createFiles(3);
+        try {
+            int howMany = 4;
+            Zadanie45.createFiles(4);
+            Zadanie45.createOneBigFile(4);
         }catch(IOException e){
             e.printStackTrace();
-        }*/
+        }
 
     }
 
@@ -100,35 +102,5 @@ public class Main {
             e.printStackTrace();
         }
         return true;
-    }
-
-    public static void createFiles(int howMany) throws IOException{
-        int[] randomNumbers = new int[10];
-
-        for(int i = 0; i <= howMany; i++) {
-            for (int j = 0; j < randomNumbers.length; j++)
-                randomNumbers[j] = (int) (Math.random() * 10001);
-
-            for(int j = 0; j < randomNumbers.length - 1; j++){
-                int index = j;
-                for(int k = j + 1; k < randomNumbers.length; k++){
-                   if(randomNumbers[index] > randomNumbers[k]){
-                       index = k;
-                   }
-                }
-                int tmp = randomNumbers[index];
-                randomNumbers[index] = randomNumbers[j];
-                randomNumbers[j] = tmp;
-            }
-
-            BufferedWriter bw = new BufferedWriter(new FileWriter("inputData" + i + ".txt"));
-
-            StringBuilder sb = new StringBuilder();
-            for (int k : randomNumbers)
-                sb.append(k).append(" ");
-
-            bw.write(sb.toString());
-            bw.close();
-        }
     }
 }
