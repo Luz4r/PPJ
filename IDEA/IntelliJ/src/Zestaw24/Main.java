@@ -20,40 +20,56 @@ public class Main {
 
         //System.out.println(check("file.txt"));
 
-        /*try{
+        try{
             FileInputStream fileInputStream = new FileInputStream("example.txt");
             int tmp;
             int i = 0;
-            char[] array = new char[26];
-            char[] checkedChars = new char[array.length];
+            char[] array = new char[50];
 
             while((tmp = fileInputStream.read()) != -1){
+                if(i == array.length){
+                    char[] newArray = new char[array.length * 2];
+                    for(int j = 0; j < array.length; j++)
+                        newArray[j] = array[j];
+                    array = newArray;
+                }
                 array[i++] = (char)tmp;
             }
 
+            char[] checkedChars = new char[array.length];
+
+            i = 0;
+            fileInputStream.close();
+
             for(int j = 0; j < array.length; j++){
+                boolean isAlreadyChecked = false;
+                int howMany = 0;
                 for(int k = 0; k < checkedChars.length; k++){
-
-
+                    if(array[j] == checkedChars[k]) {
+                        isAlreadyChecked = true;
+                    }
                 }
-                for(int l = j; l < array.length; l++){
-
+                if(!isAlreadyChecked){
+                    for(int k = j; k < array.length; k++){
+                        if(array[j] == array[k])
+                            howMany++;
+                    }
+                    System.out.println("Znak: " + array[j] + " wystapil " + howMany + (howMany == 1? " raz":" razy"));
+                    checkedChars[i++] = array[j];
                 }
             }
-
-            fileInputStream.close();
-        }catch(IOException e){
-            e.printStackTrace();
-        }*/
-
-
-        try {
-            int howMany = 4;
-            Zadanie45.createFiles(4);
-            Zadanie45.createOneBigFile(4);
         }catch(IOException e){
             e.printStackTrace();
         }
+
+
+        /*try {
+            int howMany = 4;
+            Zadanie45.createFiles(howMany);
+            Zadanie45.createOneBigFile(howMany);
+        }catch(IOException e){
+            e.printStackTrace();
+        }*/
 
     }
 
