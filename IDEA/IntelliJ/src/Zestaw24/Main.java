@@ -117,7 +117,7 @@ public class Main {
     }
 
     public static int[] generatePrime(int howMany){
-        int n = 3;
+        int n = 2;
 
         int[] primeNumbers = new int[howMany];
         int k = 0;
