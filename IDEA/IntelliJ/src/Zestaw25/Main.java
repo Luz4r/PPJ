@@ -26,21 +26,21 @@ public class Main {
 
         //Exercise 2
         try{
-            FileInputStream fr = new FileInputStream("P:\\FTP(Public)\\knopers\\PPJ\\input\\z2_s18660.bin");
+            FileInputStream fr = new FileInputStream("z2_s18660.bin");
 
             String result = "";
             int[] numbers = new int[5];
 
             for(int i = 0; i < numbers.length; i++){
-                for(int j = 0; j < 4; j++){
-                    System.out.print((fr.read()) + " ");
-                }
-                System.out.println();
+                for(int j = 0; j < 31; j+=8)
+                    numbers[i] += (fr.read() << j);
             }
 
             for(int i = 0; i < numbers.length; i++){
                 if(numbers[i] < 255) {
-                    //System.out.println(numbers[i]);
+                    result += numbers[i];
+                    if(result.length() == 1)
+                        result += ".";
                 }
             }
 
@@ -81,7 +81,7 @@ public class Main {
 
 
         //Exercise 4
-        try{
+        /*try{
             BufferedReader br = new BufferedReader(new FileReader("zad4.txt"));
             BufferedWriter bw = new BufferedWriter(new FileWriter("zad4.txt", true));
 
@@ -128,6 +128,6 @@ public class Main {
 
         }catch(IOException e){
             e.printStackTrace();
-        }
+        }*/
     }
 }
