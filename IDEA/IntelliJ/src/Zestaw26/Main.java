@@ -16,8 +16,8 @@ public class Main {
         }
 
         try{
-            saveToTxt(colors);
-            saveToBinary(colors);       //Commented so as not to generate files each time program runs
+            //saveToTxt(colors);
+            //saveToBinary(colors);       //Commented so as not to generate files each time program runs
             readFromTxt();
             readFromBinary();
         }catch(IOException e){

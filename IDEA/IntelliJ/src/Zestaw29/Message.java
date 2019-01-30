@@ -1,11 +1,11 @@
 package Zestaw29;
 
 public class Message {
-    int day, month, year;
-    String time;
-    String user;
-    String ip;
-    String text;
+    private int day, month, year;
+    private String time;
+    private String user;
+    private String ip;
+    private String text;
 
     Message(int day, int month, int year, String time, String user, String ip, String text){
         this.day = day;
